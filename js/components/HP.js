@@ -1,4 +1,4 @@
-// High Performance Component - Professional Athletic Development
+// High Performance Component - Why We Measure & How We Develop
 export default {
     render() {
         return `
@@ -41,9 +41,15 @@ export default {
                             
                             <div style="padding: 2.5rem;">
                                 <h3 style="font-size: 1.5rem; font-weight: 600; color: #1d1d1f; margin-bottom: 1rem;">Force Production</h3>
-                                <div class="metric-display" style="margin: 2rem 0;">
-                                    <div class="counter" data-target="2.5" style="font-size: 3rem; font-weight: 700; color: #500000; line-height: 1;">0.0</div>
-                                    <p style="color: #86868b; font-size: 0.9rem; margin-top: 0.5rem;">x Body Weight Peak Force</p>
+                                <div style="background: #f5f5f7; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
+                                    <div style="font-weight: 600; color: #500000; margin-bottom: 0.5rem;">Why We Measure:</div>
+                                    <div style="color: #1d1d1f; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1rem;">
+                                        Force into the ground creates velocity. We track how much force you can produce and how quickly you can produce it.
+                                    </div>
+                                    <div style="font-weight: 600; color: #500000; margin-bottom: 0.5rem;">How We Develop:</div>
+                                    <div style="color: #1d1d1f; font-size: 0.9rem; line-height: 1.5;">
+                                        Olympic lifts, plyometrics, and jump training to build explosive power from the ground up.
+                                    </div>
                                 </div>
                                 <div style="color: #86868b; font-size: 0.9rem; line-height: 1.6;">
                                     • Maximum ground reaction forces<br>
@@ -79,9 +85,15 @@ export default {
                             
                             <div style="padding: 2.5rem;">
                                 <h3 style="font-size: 1.5rem; font-weight: 600; color: #1d1d1f; margin-bottom: 1rem;">Strength & Power</h3>
-                                <div class="metric-display" style="margin: 2rem 0;">
-                                    <div class="counter" data-target="95" style="font-size: 3rem; font-weight: 700; color: #500000; line-height: 1;">0</div>
-                                    <p style="color: #86868b; font-size: 0.9rem; margin-top: 0.5rem;">th Percentile Among Athletes</p>
+                                <div style="background: #f5f5f7; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
+                                    <div style="font-weight: 600; color: #500000; margin-bottom: 0.5rem;">Why We Measure:</div>
+                                    <div style="color: #1d1d1f; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1rem;">
+                                        Stronger athletes produce more force. We compare your strength levels to elite athlete benchmarks.
+                                    </div>
+                                    <div style="font-weight: 600; color: #500000; margin-bottom: 0.5rem;">How We Develop:</div>
+                                    <div style="color: #1d1d1f; font-size: 0.9rem; line-height: 1.5;">
+                                        Progressive overload through squats, deadlifts, and rotational power exercises.
+                                    </div>
                                 </div>
                                 <div style="color: #86868b; font-size: 0.9rem; line-height: 1.6;">
                                     • Lower body explosive power<br>
@@ -122,12 +134,15 @@ export default {
                             
                             <div style="padding: 2.5rem;">
                                 <h3 style="font-size: 1.5rem; font-weight: 600; color: #1d1d1f; margin-bottom: 1rem;">Movement Quality</h3>
-                                <div class="metric-display" style="margin: 2rem 0;">
-                                    <div style="display: flex; align-items: baseline; justify-content: center;">
-                                        <div class="counter" data-target="18" style="font-size: 3rem; font-weight: 700; color: #500000; line-height: 1;">0</div>
-                                        <span style="font-size: 1.5rem; color: #86868b; margin-left: 0.5rem;">/21</span>
+                                <div style="background: #f5f5f7; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0;">
+                                    <div style="font-weight: 600; color: #500000; margin-bottom: 0.5rem;">Why We Measure:</div>
+                                    <div style="color: #1d1d1f; font-size: 0.9rem; line-height: 1.5; margin-bottom: 1rem;">
+                                        Poor movement patterns leak energy and increase injury risk. We screen for limitations before they become problems.
                                     </div>
-                                    <p style="color: #86868b; font-size: 0.9rem; margin-top: 0.5rem;">Functional Movement Screen</p>
+                                    <div style="font-weight: 600; color: #500000; margin-bottom: 0.5rem;">How We Develop:</div>
+                                    <div style="color: #1d1d1f; font-size: 0.9rem; line-height: 1.5;">
+                                        Mobility work, corrective exercises, and movement pattern training until quality is automatic.
+                                    </div>
                                 </div>
                                 <div style="color: #86868b; font-size: 0.9rem; line-height: 1.6;">
                                     • Squat and hinge pattern quality<br>
@@ -141,27 +156,67 @@ export default {
 
                     <!-- Advanced Metrics Section -->
                     <div style="background: white; padding: 3rem; border-radius: 25px; margin: 4rem 0; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);">
-                        <h3 style="font-size: 1.8rem; font-weight: 600; color: #1d1d1f; margin-bottom: 3rem; text-align: center;">Performance Analytics</h3>
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
-                            <div class="metric-card" style="text-align: center; padding: 1.5rem; background: #f5f5f7; border-radius: 15px;">
-                                <div style="font-size: 1.2rem; font-weight: 600; color: #1d1d1f; margin-bottom: 0.5rem;">RSI</div>
-                                <div style="font-size: 2rem; font-weight: 700; color: #500000; margin-bottom: 0.5rem;">2.1+</div>
-                                <div style="font-size: 0.9rem; color: #86868b;">Reactive Strength Index</div>
+                        <h3 style="font-size: 1.8rem; font-weight: 600; color: #1d1d1f; margin-bottom: 3rem; text-align: center;">Performance Testing</h3>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                            
+                            <div class="metric-card" style="text-align: center; padding: 2rem; background: #f5f5f7; border-radius: 15px; transition: all 0.3s ease; cursor: pointer;">
+                                <div style="font-size: 1.2rem; font-weight: 600; color: #1d1d1f; margin-bottom: 1rem;">RSI Testing</div>
+                                <div style="font-size: 1rem; color: #500000; margin-bottom: 1rem; font-weight: 500;">Reactive Strength Index</div>
+                                <div style="font-size: 0.9rem; color: #86868b; line-height: 1.5;">
+                                    Jump testing to measure how quickly you can produce force. Higher RSI = more explosive power for pitching.
+                                </div>
                             </div>
-                            <div class="metric-card" style="text-align: center; padding: 1.5rem; background: #f5f5f7; border-radius: 15px;">
-                                <div style="font-size: 1.2rem; font-weight: 600; color: #1d1d1f; margin-bottom: 0.5rem;">P1 Power</div>
-                                <div style="font-size: 2rem; font-weight: 700; color: #500000; margin-bottom: 0.5rem;">Elite</div>
-                                <div style="font-size: 0.9rem; color: #86868b;">Concentric Output</div>
+                            
+                            <div class="metric-card" style="text-align: center; padding: 2rem; background: #f5f5f7; border-radius: 15px; transition: all 0.3s ease; cursor: pointer;">
+                                <div style="font-size: 1.2rem; font-weight: 600; color: #1d1d1f; margin-bottom: 1rem;">Force Plates</div>
+                                <div style="font-size: 1rem; color: #500000; margin-bottom: 1rem; font-weight: 500;">Ground Force Analysis</div>
+                                <div style="font-size: 0.9rem; color: #86868b; line-height: 1.5;">
+                                    Measures exact force production and identifies imbalances between legs that could limit performance.
+                                </div>
                             </div>
-                            <div class="metric-card" style="text-align: center; padding: 1.5rem; background: #f5f5f7; border-radius: 15px;">
-                                <div style="font-size: 1.2rem; font-weight: 600; color: #1d1d1f; margin-bottom: 0.5rem;">P2 Power</div>
-                                <div style="font-size: 2rem; font-weight: 700; color: #500000; margin-bottom: 0.5rem;">Elite</div>
-                                <div style="font-size: 0.9rem; color: #86868b;">Eccentric Absorption</div>
+                            
+                            <div class="metric-card" style="text-align: center; padding: 2rem; background: #f5f5f7; border-radius: 15px; transition: all 0.3s ease; cursor: pointer;">
+                                <div style="font-size: 1.2rem; font-weight: 600; color: #1d1d1f; margin-bottom: 1rem;">Movement Screen</div>
+                                <div style="font-size: 1rem; color: #500000; margin-bottom: 1rem; font-weight: 500;">FMS Assessment</div>
+                                <div style="font-size: 0.9rem; color: #86868b; line-height: 1.5;">
+                                    Functional movement screen to identify mobility restrictions and stability weaknesses.
+                                </div>
                             </div>
-                            <div class="metric-card" style="text-align: center; padding: 1.5rem; background: #f5f5f7; border-radius: 15px;">
-                                <div style="font-size: 1.2rem; font-weight: 600; color: #1d1d1f; margin-bottom: 0.5rem;">Asymmetry</div>
-                                <div style="font-size: 2rem; font-weight: 700; color: #500000; margin-bottom: 0.5rem;">&lt;10%</div>
-                                <div style="font-size: 0.9rem; color: #86868b;">Left vs Right Balance</div>
+                            
+                            <div class="metric-card" style="text-align: center; padding: 2rem; background: #f5f5f7; border-radius: 15px; transition: all 0.3s ease; cursor: pointer;">
+                                <div style="font-size: 1.2rem; font-weight: 600; color: #1d1d1f; margin-bottom: 1rem;">Power Testing</div>
+                                <div style="font-size: 1rem; color: #500000; margin-bottom: 1rem; font-weight: 500;">Concentric & Eccentric</div>
+                                <div style="font-size: 0.9rem; color: #86868b; line-height: 1.5;">
+                                    Measures both explosive power output and shock absorption capacity during jumping movements.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Development Philosophy -->
+                    <div style="background: #f5f5f7; padding: 4rem 3rem; border-radius: 25px; margin: 4rem 0;">
+                        <h3 style="font-size: 2rem; font-weight: 600; color: #1d1d1f; margin-bottom: 3rem; text-align: center;">Our Development Approach</h3>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                            
+                            <div style="background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);">
+                                <h4 style="font-size: 1.3rem; font-weight: 600; color: #500000; margin-bottom: 1rem;">Test → Train → Retest</h4>
+                                <p style="color: #86868b; font-size: 0.9rem; line-height: 1.6;">
+                                    We establish baselines, design specific training interventions, then track progress with follow-up testing to ensure our methods are working.
+                                </p>
+                            </div>
+                            
+                            <div style="background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);">
+                                <h4 style="font-size: 1.3rem; font-weight: 600; color: #500000; margin-bottom: 1rem;">Individual Programming</h4>
+                                <p style="color: #86868b; font-size: 0.9rem; line-height: 1.6;">
+                                    Every athlete gets a customized program based on their specific test results, addressing their unique strengths and weaknesses.
+                                </p>
+                            </div>
+                            
+                            <div style="background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);">
+                                <h4 style="font-size: 1.3rem; font-weight: 600; color: #500000; margin-bottom: 1rem;">Progressive Overload</h4>
+                                <p style="color: #86868b; font-size: 0.9rem; line-height: 1.6;">
+                                    Systematic increases in training stress over time, allowing the body to adapt and improve while minimizing injury risk.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -171,8 +226,8 @@ export default {
                         <p style="font-size: 1.2rem; color: #86868b; font-style: italic; max-width: 600px; margin: 0 auto; line-height: 1.6;">
                             "Everything starts from the ground up. Elite velocity and command are built on a foundation of explosive power, optimal movement patterns, and unwavering durability."
                         </p>
-                        <a href="#development" class="cta-button" style="display: inline-block; background: #500000; color: white; padding: 1.2rem 3rem; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(80, 0, 0, 0.3); margin-top: 2rem;">
-                            See Complete System
+                        <a href="#throwing" class="cta-button" style="display: inline-block; background: #500000; color: white; padding: 1.2rem 3rem; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(80, 0, 0, 0.3); margin-top: 2rem;">
+                            See Training Methods
                         </a>
                     </div>
                 </div>
@@ -182,7 +237,6 @@ export default {
 
     init(container) {
         this.setupCardAnimations(container);
-        this.animateCounters(container);
         this.setupHoverEffects(container);
         this.setupVisualAnimations(container);
     },
@@ -202,37 +256,6 @@ export default {
         });
     },
 
-    animateCounters(container) {
-        const counters = container.querySelectorAll('.counter');
-        
-        counters.forEach(counter => {
-            const target = parseFloat(counter.dataset.target);
-            const duration = 2500;
-            const start = performance.now();
-            
-            const animate = (currentTime) => {
-                const elapsed = currentTime - start;
-                const progress = Math.min(elapsed / duration, 1);
-                const easeOut = 1 - Math.pow(1 - progress, 3);
-                const current = target * easeOut;
-                
-                if (target % 1 === 0) {
-                    counter.textContent = Math.round(current);
-                } else {
-                    counter.textContent = current.toFixed(1);
-                }
-                
-                if (progress < 1) {
-                    requestAnimationFrame(animate);
-                }
-            };
-            
-            setTimeout(() => {
-                requestAnimationFrame(animate);
-            }, 1000);
-        });
-    },
-
     setupHoverEffects(container) {
         const cards = container.querySelectorAll('.hp-card');
         
@@ -245,6 +268,20 @@ export default {
             card.addEventListener('mouseleave', () => {
                 card.style.transform = 'translateY(0) scale(1)';
                 card.style.boxShadow = '0 8px 30px rgba(0, 0, 0, 0.08)';
+            });
+        });
+
+        // Metric cards
+        const metricCards = container.querySelectorAll('.metric-card');
+        metricCards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-8px) scale(1.02)';
+                card.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.1)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0) scale(1)';
+                card.style.boxShadow = 'none';
             });
         });
 
@@ -266,37 +303,15 @@ export default {
     },
 
     setupVisualAnimations(container) {
-        // Animate force vectors
-        const forceVectors = container.querySelectorAll('.force-vector');
-        forceVectors.forEach((vector, index) => {
+        // Animate SVG elements periodically
+        const svgs = container.querySelectorAll('svg');
+        svgs.forEach((svg, index) => {
             setInterval(() => {
-                vector.style.opacity = '0.3';
+                svg.style.transform = 'scale(1.05)';
                 setTimeout(() => {
-                    vector.style.opacity = '0.8';
+                    svg.style.transform = 'scale(1)';
                 }, 300);
-            }, 2000 + (index * 200));
-        });
-
-        // Animate strength bars
-        const strengthBars = container.querySelectorAll('.strength-bar');
-        strengthBars.forEach((bar, index) => {
-            setInterval(() => {
-                bar.style.transform = 'scaleY(0.5)';
-                setTimeout(() => {
-                    bar.style.transform = 'scaleY(1)';
-                }, 400);
-            }, 3000 + (index * 100));
-        });
-
-        // Pulse movement dots
-        const movementDots = container.querySelectorAll('.movement-dot');
-        movementDots.forEach((dot, index) => {
-            setInterval(() => {
-                dot.style.transform = 'scale(1.5)';
-                setTimeout(() => {
-                    dot.style.transform = 'scale(1)';
-                }, 300);
-            }, 2500 + (index * 150));
+            }, 4000 + (index * 800));
         });
     }
 };
